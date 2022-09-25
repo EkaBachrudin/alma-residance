@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-md-8">
-          <a href="tel:081280065200" target="_blank" rel="noopener noreferrer nofollow" title="Hubungi Kami">
+          <a href="tel:089604122618" target="_blank" rel="noopener noreferrer nofollow" title="Hubungi Kami">
             <font color="#000" style="font-size: 20px;">
               <img src="{{asset('assets/img/alma/telpon.png')}}" width="100px" alt="Mustika Care" title="Mustika Care">&nbsp;&nbsp;<b>Hubungi Kami</b>
             </font>
