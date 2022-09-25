@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Alma Residance</title>
+  <title>Alma Residence</title>
   <meta content="Hunian Strategis bebas Banjir Setu Bekasi, DP 0 %" name="description">
-  <meta content="Alma Residance" name="keywords">
+  <meta content="Alma Residence" name="keywords">
 
   
   <link href="{{asset('assets/img/alma/almalogo.png')}}" rel="icon">

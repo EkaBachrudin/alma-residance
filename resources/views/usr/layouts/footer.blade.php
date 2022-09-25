@@ -4,7 +4,7 @@
         <div class="col-md-4">
           <div class="widget-a">
             <div class="w-header-a">
-              <h3 class="w-title-a text-brand"><img src="{{asset('assets/img/alma/almalogo.png')}}" width="50"> Alma Residance</h3>
+              <h3 class="w-title-a text-brand"><img src="{{asset('assets/img/alma/almalogo.png')}}" width="50"> Alma Residence</h3>
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
@@ -15,7 +15,7 @@
             <div class="w-footer-a">
               <ul class="list-unstyled">
                 <li class="color-a">
-                  <span class="color-text-a">Phone .</span> sales@almaresidance.com
+                  <span class="color-text-a">Phone .</span> sales@almaresidence.com
                 </li>
                 <li class="color-a">
                   <span class="color-text-a">Email .</span> +62 0000 0000 0000
@@ -64,7 +64,7 @@
           </div>
           <div class="copyright-footer">
             <p class="copyright color-text-a">
-              &copy; Copyright 2022 Alma Residance. All Rights Reserved.
+              &copy; Copyright 2022 Alma Residence. All Rights Reserved.
             </p>
           </div>
           <div class="credits">

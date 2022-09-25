@@ -14,7 +14,7 @@
               <div class="col-lg-8">
                 <div class="intro-body">
                   <h1 class="intro-title mb-4">
-                    Welcome To Alma <span class="color-b">Residance</span>
+                    Welcome To Alma <span class="color-b">Residence</span>
                   </h1>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem consectetur explicabo, corrupti vero, optio eius suscipit in earum placeat non blanditiis necessitatibus aspernatur. Enim obcaecati consequatur est veniam cumque!</p>
                 </div>
@@ -33,7 +33,7 @@
       <div class="col-md-6 mb-3">
         <div class="card">
           <div class="card-body shadow">
-            <h1 ><img src="{{asset('assets/img/alma/almalogo.png')}}" width="50"><strong> Alma Residance</strong></h1 >
+            <h1 ><img src="{{asset('assets/img/alma/almalogo.png')}}" width="50"><strong> Alma Residence</strong></h1 >
             <br>
               <p><strong>Hunian Elegan Strategis & Bebas Banjir</strong></p>
               <p>Siap Huni Tanpa Renovasi</p>
@@ -105,22 +105,22 @@
       <div class="col-md-4 card p-3 shadow m-1">
         <span class="fa fa-school color-b" style="font-size: 50px"></span>
         <h3>Sarana Pendidikan</h3>
-        <p class="text-mute">Hanya 5 menit dari Alma residance</p>
+        <p class="text-mute">Hanya 5 menit dari Alma residence</p>
       </div>
       <div class="col-md-4 card p-3 shadow m-1">
         <span class="fa fa-hospital color-b" style="font-size: 50px"></span>
         <h3>Sarana Kesehatan</h3>
-        <p class="text-mute">Hanya 10 menit dari Alma residance</p>
+        <p class="text-mute">Hanya 10 menit dari Alma residence</p>
       </div>
       <div class="col-md-4 card p-3 shadow m-1">
         <span class="fa fa-store color-b" style="font-size: 50px"></span>
         <h3>Pusat Perbelanjaan</h3>
-        <p class="text-mute">Hanya 20 menit dari Alma residance</p>
+        <p class="text-mute">Hanya 20 menit dari Alma residence</p>
       </div>
       <div class="col-md-4 card p-3 shadow m-1">
         <span class="fa fa-building color-b" style="font-size: 50px"></span>
         <h3>kawasan Strategis</h3>
-        <p class="text-mute">Hanya 20 menit dari Alma residance</p>
+        <p class="text-mute">Hanya 20 menit dari Alma residence</p>
       </div>
       <div class="col-md-4 card p-3 shadow m-1">
         <span class="fa fa-building color-b" style="font-size: 50px"></span>
@@ -130,7 +130,7 @@
           <li>Lippo Cikarang</li>
           <li>kawasan Hyundai</li>
         </ul>
-        <p class="text-mute">Hanya 20 menit dari Alma residance</p>
+        <p class="text-mute">Hanya 20 menit dari Alma residence</p>
       </div>
     </div>
   </div>
@@ -232,7 +232,7 @@
   </div>
 
   <div class="container mt-5">
-    <h1 class="text-center"><strong>Lokasi Alma Residance</strong></h1>
+    <h1 class="text-center"><strong>Lokasi Alma Residence</strong></h1>
     <div class="row d-flex justify-content-center">
       <div class="col-md-10">
         <div class="card shadow">

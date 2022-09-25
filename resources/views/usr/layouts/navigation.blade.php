@@ -6,7 +6,7 @@
         <span></span>
       </button>
       <img src="{{asset('assets/img/alma/almalogo.png')}}" alt="Logo" width="50" class="d-none d-sm-block d-inline-block align-text-top mx-3">
-      <a class="navbar-brand text-brand" href="#">Alma <span class="color-b">Residance</span></a>
+      <a class="navbar-brand text-brand" href="#">Alma <span class="color-b">Residence</span></a>
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
 
