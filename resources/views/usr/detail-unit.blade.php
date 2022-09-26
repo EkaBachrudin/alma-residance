@@ -87,7 +87,7 @@
                         <span>Alma Residence 3</span>
                       </li>
                       <li class="d-flex justify-content-between">
-                        <strong>Tipe Unit 30 / 37:</strong>
+                        <strong>Tipe Unit 36 / 37:</strong>
                         <span>House</span>
                       </li>
                       <li class="d-flex justify-content-between">

@@ -38,15 +38,35 @@
               <p><strong>Hunian Elegan Strategis & Bebas Banjir</strong></p>
               <p>Siap Huni Tanpa Renovasi</p>
               <p>Booking Fee </p> <h3 class="text-danger shake"><strong>Rp. 3.000.000</strong></h3>
-              <p>Uang Muka <strong>0%</strong> & Free Biaya Proses KPR</p>
+              <div class="mt-3">
+                  <ul>
+                    <li> ✅ Free DP (0%)</li>
+                    <li> ✅ Free Biaya Proses KPR</li>
+                    <li> ✅ Free Biaya Notaris</li>
+                    <li> ✅ Free Mesin Air</li>
+                    <li> ✅ Free Biaya br Surat - Surat :
+                      <ul class="my-1">
+                        <li> BPHTB</li>
+                        <li> APRAISAL</li>
+                        <li> NOTARIS</li>
+                        <li> ASURANSI</li>
+                      </ul>
+                    </li>
+                    <li> ✅ Free Potongan Angsuran 500RB / Bln Selama 2 Thn</li>
+                  </ul>
+              </div>
               <div>
                 <ul>
-                  <li>3 Menit Akses Tol Jorr</li>
-                  <li>20 Menit Terminal Cileungsi</li>
-                  <li>15 Menit MM Cileungsi</li>
-                  <li>45 Menit LRT Cibubur</li>
+                  <li> ✅ 3menit ke pintu tol jorr2 Cibitung-Cimanggis</li>
+                  <li> ✅ 2menit ke SMP/SMK NEGERI</li>
+                  <li> ✅ 5menit ke pasar swalayan</li>
+                  <li> ✅ 5menit ke rumah sakit Kartika Husada</li>
+                  <li> ✅ 15menit ke kawasan MM2100</li>
+                  <li> ✅ 20menit ke Go-wet waterpark grandwisata</li>
+                  <li> ✅ 20menit ke Mall metropolitan Cileungsi</li>
                 </ul>
               </div>
+              <a href="https://wa.me/089604122618" target="_blank"><img src="{{asset('assets/img/alma/chatyuk.png')}}" alt="Logo" style="width: 150px"></a>
               <div>
                 <strong>* Unit Terbatas, silakan hubungi kami untuk informasi lebih lanjut</strong>
               </div>
@@ -84,13 +104,13 @@
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-4 mb-1">
-        <img src="{{asset('assets/img/alma/bannerhero.jpeg')}}" class="img-fluid shadow">
+        <img src="{{asset('assets/img/alma/bannerhero.jpeg')}}" class="img-a img-fluid shadow">
       </div>
       <div class="col-md-4 mb-1">
-        <img src="{{asset('assets/img/alma/banner2.jpeg')}}" class="img-fluid shadow">
+        <img src="{{asset('assets/img/alma/banner2.jpeg')}}" class="img-a img-fluid shadow">
       </div>
       <div class="col-md-4 mb-1">
-        <img src="{{asset('assets/img/alma/banner3.jpeg')}}" class="img-fluid shadow">
+        <img src="{{asset('assets/img/alma/banner3.jpeg')}}" class="img-a img-fluid shadow">
       </div>
     </div>
   </div>
@@ -161,32 +181,7 @@
           <div class="carousel-item-b swiper-slide">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="{{asset('assets/img/alma/30.jpg')}}" alt="" class="img-fluid">
-              </div>
-              <div class="card-overlay">
-                <div class="card-overlay-a-content">
-                  <div class="card-header-a">
-                    <h2 class="card-title-a">
-                      <a href="/detail">Unit
-                        <br /> 30 / 72</a>
-                    </h2>
-                  </div>
-                  <div class="card-body-a">
-                    <div class="price-box d-flex">
-                      <span class="price-a"> Rp 300.000.000</span>
-                    </div>
-                    <a href="/detail" class="link-a">Click here to view
-                      <span class="bi bi-chevron-right"></span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item-b swiper-slide">
-            <div class="card-box-a card-shadow">
-              <div class="img-box-a">
-                <img src="{{asset('assets/img/alma/36.jpeg')}}" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/alma/36.jpeg')}}" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
@@ -198,7 +193,7 @@
                   </div>
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a"> Rp 500.000.000</span>
+                      <span class="price-a"> Rp 392.000.000</span>
                     </div>
                     <a href="/detail" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
@@ -211,7 +206,7 @@
           <div class="carousel-item-b swiper-slide">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="{{asset('assets/img/alma/42.jpg')}}" alt="" class="img-fluid">
+                <img src="{{asset('assets/img/alma/42.jpg')}}" alt="" class="img-a img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
@@ -223,7 +218,7 @@
                   </div>
                   <div class="card-body-a">
                     <div class="price-box d-flex">
-                      <span class="price-a"> Rp 500.000.000</span>
+                      <span class="price-a"> Rp 440.000.000</span>
                     </div>
                     <a href="/detail42" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
@@ -260,7 +255,7 @@
     <div class="row d-flex justify-content-center">
       <h1 class="text-center"><strong>Site Plant Alma Residence 3</strong></h1>
       <div class="col-md-6">
-          <img src="{{asset('assets/img/alma/siteplant.JPG')}}" class="img-fluid" alt="">
+          <img src="{{asset('assets/img/alma/siteplant.JPG')}}" class="img-a img-fluid" alt="">
       </div>
     </div>
   </div>
