@@ -260,7 +260,7 @@
     <div class="row d-flex justify-content-center">
       <h1 class="text-center"><strong>Site Plant Alma Residence 3</strong></h1>
       <div class="col-md-6">
-          <img src="{{asset('assets/img/alma/siteplant.jpg')}}" class="img-fluid" alt="">
+          <img src="{{asset('assets/img/alma/siteplant.JPG')}}" class="img-fluid" alt="">
       </div>
     </div>
   </div>
