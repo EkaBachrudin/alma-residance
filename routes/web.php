@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\adm\AdminController;
 use App\Http\Controllers\usr\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//User Area
 Route::get('/', [UserController::class, 'index']);
 Route::get('/about', [UserController::class, 'about']);
 Route::get('/detail', [UserController::class, 'detailUnit']);
 Route::get('/detail42', [UserController::class, 'detailUnit42']);
+
+//Admin Area
+Route::group(['middleware' => ['auth', 'admin']], function () {
+    Route::get('/admin', [AdminController::class, 'index']);
+});
 
 require __DIR__.'/auth.php';
