@@ -78,18 +78,23 @@
           <div class="card-body shadow">
             <h1><strong>Hubungi Kami</strong></h1>
             <p>Dapatkan Update Promo & Harga Terbaru</p>
-            <form action="#">
+            <form action="/store" method="POST">
+              @csrf
               <div class="mb-4">
                 <label class="form-label">Nama Lengkap</label>
-                <input type="text" name="name" class="form-control" placeholder="tulis nama anda ..." autocomplete="off" required>
+                <input type="text" name="nama" class="form-control" placeholder="tulis nama anda ..." autocomplete="off" required>
               </div>
               <div class="mb-4">
                 <label class="form-label">No Whatsapp</label>
-                <input type="number" name="wa" class="form-control" placeholder="tulis wa anda ..." autocomplete="off" required>
+                <input type="number" name="tlp" class="form-control" placeholder="tulis wa anda ..." autocomplete="off" required>
               </div>
               <div class="mb-4">
                 <label class="form-label">Email</label>
                 <input type="email" name="email" class="form-control" placeholder="tulis email anda ..." autocomplete="off" required>
+              </div>
+              <div class="mb-4">
+                <label class="form-label">Pesan</label>
+                <textarea name="pesan" id="" cols="30" rows="10" class="form-control" autocomplete="off" required>Hallo Alma Residence, boleh tolong kirimkan penawaran untuk Perumahan? Thanks .</textarea>
               </div>
               <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-success rounded-0 btn">Kirim</button>

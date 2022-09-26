@@ -18,8 +18,17 @@
         <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12 d-flex justify-content-between">
                         <a href="#menu-toggle" class="btn btn-outline-secondary btn-sm rounded-0" id="menu-toggle"><i class="bi bi-list"></i></a>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-dropdown-link :href="route('logout')"
+                                    onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                <i class="bi bi-box-arrow-left"></i>
+                            </x-dropdown-link>
+                        </form>
                     </div>
                 </div>
             </div>

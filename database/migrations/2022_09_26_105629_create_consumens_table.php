@@ -18,6 +18,8 @@ class CreateConsumensTable extends Migration
             $table->string('nama', 100);
             $table->string('email', 100);
             $table->string('tlp', 100);
+            $table->string('status', 20);
+            $table->text('pesan')->nullable();
             $table->timestamps();
         });
     }
