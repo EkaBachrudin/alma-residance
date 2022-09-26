@@ -24,6 +24,8 @@ Route::get('/detail42', [UserController::class, 'detailUnit42']);
 //Admin Area
 Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::get('/admin', [AdminController::class, 'index']);
+    Route::get('/konsumen', [AdminController::class, 'konsumen']);
+    Route::get('/getDataKonsumen', [AdminController::class, 'getDataKonsumen']);
 });
 
 require __DIR__.'/auth.php';

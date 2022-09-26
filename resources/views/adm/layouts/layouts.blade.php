@@ -23,16 +23,14 @@
                     </div>
                 </div>
             </div>
+            <hr>
             <div class="container">
                 @yield('content')
             </div>
         </div>
     </div>
     
-    <script
-    src="https://code.jquery.com/jquery-3.6.1.slim.js"
-    integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="{{asset('adm/dist/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{asset('adm/js/script.js')}}"></script>
     @yield('javascript')

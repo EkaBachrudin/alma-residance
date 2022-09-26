@@ -8,5 +8,8 @@
         <li>
             <a href="/admin">Dashboard</a>
         </li>
+        <li>
+            <a href="/konsumen">Data calon konsumen</a>
+        </li>
     </ul>
 </div>
