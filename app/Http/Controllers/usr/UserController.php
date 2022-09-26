@@ -14,4 +14,12 @@ class UserController extends Controller
     public function about(){
         return view('usr.about');
     }
+
+    public function detailUnit(){
+        return view('usr.detail-unit');
+    }
+
+    public function detailUnit42(){
+        return view('usr.detail-unit42');
+    }
 }

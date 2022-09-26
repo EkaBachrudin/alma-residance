@@ -161,13 +161,13 @@
           <div class="carousel-item-b swiper-slide">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="{{asset('assets/img/alma/tipeunit1.jpg')}}" alt="" class="img-a img-fluid">
+                <img src="{{asset('assets/img/alma/30.jpg')}}" alt="" class="img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="property-single.html">Unit
+                      <a href="/detail">Unit
                         <br /> 30 / 72</a>
                     </h2>
                   </div>
@@ -175,7 +175,7 @@
                     <div class="price-box d-flex">
                       <span class="price-a"> Rp 300.000.000</span>
                     </div>
-                    <a href="#" class="link-a">Click here to view
+                    <a href="/detail" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -186,13 +186,13 @@
           <div class="carousel-item-b swiper-slide">
             <div class="card-box-a card-shadow">
               <div class="img-box-a">
-                <img src="{{asset('assets/img/alma/tipeunit2.jpg')}}" alt="" class="img-a img-fluid">
+                <img src="{{asset('assets/img/alma/36.jpeg')}}" alt="" class="img-fluid">
               </div>
               <div class="card-overlay">
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="property-single.html">Unit
+                      <a href="/detail">Unit
                         <br /> 36 / 72</a>
                     </h2>
                   </div>
@@ -200,7 +200,32 @@
                     <div class="price-box d-flex">
                       <span class="price-a"> Rp 500.000.000</span>
                     </div>
-                    <a href="#" class="link-a">Click here to view
+                    <a href="/detail" class="link-a">Click here to view
+                      <span class="bi bi-chevron-right"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item-b swiper-slide">
+            <div class="card-box-a card-shadow">
+              <div class="img-box-a">
+                <img src="{{asset('assets/img/alma/42.jpg')}}" alt="" class="img-fluid">
+              </div>
+              <div class="card-overlay">
+                <div class="card-overlay-a-content">
+                  <div class="card-header-a">
+                    <h2 class="card-title-a">
+                      <a href="/detail42">Unit
+                        <br /> 42 / 72</a>
+                    </h2>
+                  </div>
+                  <div class="card-body-a">
+                    <div class="price-box d-flex">
+                      <span class="price-a"> Rp 500.000.000</span>
+                    </div>
+                    <a href="/detail42" class="link-a">Click here to view
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
@@ -227,6 +252,15 @@
             </video>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+      <h1 class="text-center"><strong>Site Plant Alma Residence 3</strong></h1>
+      <div class="col-md-6">
+          <img src="{{asset('assets/img/alma/siteplant.jpg')}}" class="img-fluid" alt="">
       </div>
     </div>
   </div>
