@@ -127,7 +127,7 @@
   @include('usr.layouts.footer')
   <div id="preloader"></div>
   <div class="">
-    <a href="https://wa.me/089604122618" target="_blank"><img src="{{asset('assets/img/alma/chatyuk.png')}}" alt="Logo" style="width: 120px" class="chatyuk"></a>
+    <a href="https://wa.me/6289604122618" target="_blank"><img src="{{asset('assets/img/alma/chatyuk.png')}}" alt="Logo" style="width: 120px" class="chatyuk"></a>
   </div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   
