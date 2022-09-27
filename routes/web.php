@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\adm\AdminController;
+use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\ConsumenController;
 use App\Http\Controllers\usr\UserController;
 use Illuminate\Support\Facades\Route;

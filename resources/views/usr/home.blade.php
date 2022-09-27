@@ -16,7 +16,6 @@
                   <h1 class="intro-title mb-4">
                     Welcome To Alma <span class="color-b">Residence</span>
                   </h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem consectetur explicabo, corrupti vero, optio eius suscipit in earum placeat non blanditiis necessitatibus aspernatur. Enim obcaecati consequatur est veniam cumque!</p>
                 </div>
               </div>
             </div>

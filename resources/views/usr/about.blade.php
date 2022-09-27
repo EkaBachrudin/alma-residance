@@ -50,23 +50,16 @@
                 <div class="title-box-d">
                   <h3 class="title-d">Siapa Kami</h3>
                 </div>
-                <p class="color-text-a">
-                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget
-                  consectetur sed, convallis
-                  at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum
-                  ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit
-                  neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-                </p>
-                <p class="color-text-a">
-                  Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
-                  Mauris blandit aliquet
-                  elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed,
-                  convallis at tellus.
-                </p>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero incidunt mollitia sapiente, possimus amet pariatur! Fugiat sunt aspernatur, accusamus animi atque dolorum nesciunt soluta dolor eos asperiores reprehenderit ratione quo.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor enim, molestias tenetur cumque iste quos voluptatibus esse dignissimos exercitationem quia perspiciatis aspernatur? Suscipit voluptates optio atque animi? Officia, tenetur saepe!
-                </p>
+                <h5 class="color-text-a">
+                  <strong>Alma Residence, kawasan perumahan baru yang terletak di Kabupeten Bekasi Setu. 
+                    Alma Residence hadir sebagai jawaban bagi kebutuhan masyarakat urban yang memimpikan 
+                    sebuah kehidupan nyaman serta ideal. Alma Residence berlokasi di 
+                    Jl. MT Haryono Kel Tamansari Kecamatan Setu Kab Bekasi, yang merupakan rute utama jalan raya kalimalang cibitung, dengan tambahan 
+                    akses mendatang yang menghubungkan jalur-jalur strategis.
+                    Alma Residence menawarkan sebuah kawasan hunian harga terjangkau. 
+                    Berbasis konsep gaya hidup comfortable living, kawasan ini dekat dengan beragam fasilitas, 
+                    mulai dari pendukung kebutuhan sehari-hari, komersial, dll.</strong>
+                </h5>
               </div>
             </div>
           </div>
