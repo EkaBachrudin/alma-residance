@@ -8,27 +8,29 @@
             </div>
             <div class="w-body-a">
               <p class="w-text-a color-text-a">
-                
+                Hunian nyaman bebas banjir dan strategis di kawasan setu
               </p>
-            </div>
-            <div class="w-footer-a">
-              <ul class="list-unstyled">
-                <li class="color-a">
-                  <span class="color-text-a">Phone .</span> sales@almaresidence.com
-                </li>
-                <li class="color-a">
-                  <span class="color-text-a">Email .</span> +62 0000 0000 0000
-                </li>
-              </ul>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-3 card p-3 m-1 shadow">
+          <h3><strong>Kontak Kami</strong></h3>
           <a href="tel:089604122618" target="_blank" rel="noopener noreferrer nofollow" title="Hubungi Kami">
-            <font color="#000" style="font-size: 20px;">
-              <img src="{{asset('assets/img/alma/telpon.png')}}" width="100px" alt="Mustika Care" title="Mustika Care">&nbsp;&nbsp;<b>Hubungi Kami</b>
+            <font color="#000">
+              <img src="{{asset('assets/img/alma/telpon.png')}}" width="200px" alt="Alma Residence" title="Alma Residence">
             </font>
           </a>
+          <br>
+          <a href="https://wa.me/6289604122618?text=Terima%20Kasih%20Telah%20Menghubungi%20Alma%20residance" target="_blank" rel="noopener noreferrer nofollow" title="Hubungi Kami">
+            <font color="#000">
+              <img src="{{asset('assets/img/alma/whatsapp.png')}}" width="200px" alt="Alma Residence" title="Alma Residence">
+            </font>
+          </a>
+          <br>
+        </div>
+        <div class="col-md-4 card p-3 m-1  shadow">
+          <h3><strong>Kantor Pemasaran</strong></h3>
+          <h5>Jl. MT. Haryono No.17, Burangkeng, Kec. Setu, Kabupaten Bekasi, Jawa Barat 17320</h5>
         </div>
       </div>
     </div>

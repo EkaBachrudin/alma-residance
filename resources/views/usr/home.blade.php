@@ -191,8 +191,7 @@
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="/detail">Unit
-                        <br /> 36 / 72</a>
+                      <a href="/detail">Unit 36 / 72</a>
                     </h2>
                   </div>
                   <div class="card-body-a">
@@ -216,8 +215,7 @@
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="/detail42">Unit
-                        <br /> 42 / 72</a>
+                      <a href="/detail42">Unit 42 / 72</a>
                     </h2>
                   </div>
                   <div class="card-body-a">
@@ -244,7 +242,7 @@
     <div class="row d-flex justify-content-center">
       <h1 class="text-center"><strong>Video</strong></h1>
       <div class="col-md-10">
-        <div class="card">
+        <div class="card shadow">
           <div class="card-body">
             <video width="100%" controls>
                 <source src="{{asset('assets/video/alma.mp4')}}" type="video/mp4">

@@ -11,5 +11,8 @@
         <li>
             <a href="/konsumen">Data calon konsumen</a>
         </li>
+        <li>
+            <a href="/unit">Unit</a>
+        </li>
     </ul>
 </div>
