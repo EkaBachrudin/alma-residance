@@ -266,12 +266,12 @@
   </div>
 
   <div class="container mt-5">
-    <h1 class="text-center"><strong>Lokasi Alma Residence</strong></h1>
+    <h1 class="text-center"><strong>Lokasi Alma Residence 3</strong></h1>
     <div class="row d-flex justify-content-center">
       <div class="col-md-10">
         <div class="card shadow">
           <div class="card-body ratio ratio-16x9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2473437459935!2d107.01754671471748!3d-6.362025595396277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69917c7d052f17%3A0xe428b9edef20fc1c!2sALMA%20RESIDENCE%20SATU!5e0!3m2!1sid!2sid!4v1664129560766!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2889125257325!2d107.03661919999999!3d-6.3566362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699185492f65d3%3A0x5e306f292969f2b3!2sALMA%20RESIDENCE%20TIGA!5e0!3m2!1sid!2sid!4v1664255820551!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
