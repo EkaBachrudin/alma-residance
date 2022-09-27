@@ -2,7 +2,7 @@
     <ul class="sidebar-nav">
         <li class="sidebar-brand">
             <a href="#">
-                Start Bootstrap
+                Admin <strong>Alma Residence</strong>
             </a>
         </li>
         <li>

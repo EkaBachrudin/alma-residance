@@ -116,12 +116,12 @@
     <div class="grid">
   
       <form method="POST" action="{{ route('login') }}" class="form login">
-  
+        @csrf
         <div class="form__field">
           <label for="login__username"><svg class="icon">
               <use xlink:href="#icon-user"></use>
             </svg><span class="hidden">Username</span></label>
-          <input autocomplete="username" id="login__username" type="text" name="username" class="form__input" placeholder="Username" required>
+          <input autocomplete="email" id="login__username" type="text" name="email" class="form__input" placeholder="Email" required>
         </div>
   
         <div class="form__field">
