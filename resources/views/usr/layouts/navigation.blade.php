@@ -14,7 +14,7 @@
           </button>
           <div class="dropdown-menu dropdown-menu-md dropdown-menu-end p-0" aria-labelledby="page-header-user-dropdown">
             <div class="p-2">
-              <a class="dropdown-item d-flex align-items-center justify-content-between space-x-1" href="/admin/profile">
+              <a class="dropdown-item d-flex align-items-center justify-content-between space-x-1" href="/maa/profile">
                 <span>Profile</span>
                 <i class="fa fa-fw fa-user opacity-25"></i>
               </a>
@@ -66,12 +66,12 @@
 
           <!-- Visible only in normal mode -->
           <div class="smini-hidden text-center mx-auto">
-            <a class="img-link" href="/admin/profile">
+            <a class="img-link" href="/maa/profile">
               <img class="img-avatar" src="{{asset('profile/'.Auth()->user()->image)}}" alt="">
             </a>
             <ul class="list-inline mt-3 mb-0">
               <li class="list-inline-item p-1">
-                <a class=" text-dual fs-sm fw-semibold text-uppercase" href="/admin/profile">
+                <a class=" text-dual fs-sm fw-semibold text-uppercase" href="/maa/profile">
                   {{Auth()->user()->name}}</a>
               </li>
             </ul>
