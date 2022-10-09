@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="{{asset('adm/css/style.css')}}" rel="stylesheet">
     @yield('style')
-    <title>Admin Alma Residence</title>
+    <title>EIP MAA</title>
 </head>
 <body>
     <div id="wrapper">
         
-        @include('adm.layouts.navigation')
+        @include('usr.layouts.navigation')
         
         <div id="page-content-wrapper">
             <div class="container-fluid">
