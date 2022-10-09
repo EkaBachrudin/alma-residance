@@ -4,9 +4,6 @@
     .lk:hover{
         text-decoration: underline
     }
-    .content{
-        pointer-events: none;
-    }
 </style>    
 @endsection
 
@@ -14,7 +11,11 @@
 <div class="content">
     <div class="d-flex justify-content-between">
       <h2 class="">Detail Sop</h2>
-      <a href="/maa/sop/downloadfile/{{$sop->id}}"><i class="fa fa-file text-danger lk"> Download File</i> </a>
+      @if ($item->form == null)
+      
+      @else
+      <a href="/maa/sop/downloadfile/{{$sop->id}}" class="y-2"><i class="fa fa-file text-danger lk"> Download File</i> </a>
+      @endif
     </div>
     <hr>
         <div class="row justify-content-center">
