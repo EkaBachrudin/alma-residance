@@ -17,7 +17,7 @@ class CreateSopsTable extends Migration
             $table->id();
             $table->string('sop_title');
             $table->string('file');
-            $table->string('form');
+            $table->string('form')->nullable();
             $table->timestamps();
         });
     }

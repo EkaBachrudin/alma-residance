@@ -41,7 +41,11 @@
                           <tr>
                             <td>{{$no++}}</td>
                             <td class="fw-semibold"><a href="/maa/sop/{{$item->id}}" class="lk">{{$item->sop_title}}</a></td>
+                            @if ($item->form == null)
+                            <td> Empty </td>
+                            @else
                             <td> <a href="/maa/sop/downloadfile/{{$item->id}}" onclick="return confirm('Download this file ?')"><i class="fa-solid fa-file"></i> Download</a> </td>
+                            @endif
                         </tr>
                           @endforeach
                         </tbody>
