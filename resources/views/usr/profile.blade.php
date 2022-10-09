@@ -15,9 +15,6 @@
           </div>
 
           <h1 class="h3 text-white fw-bold mb-2">{{$user->name}}</h1>
-          <h2 class="h5 text-white-75">
-            Login as admin
-          </h2>
         </div>
       </div>
     </div>
