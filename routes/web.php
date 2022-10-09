@@ -9,6 +9,7 @@ use App\Http\Controllers\adm\UserController as AdmUserController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\ConsumenController;
 use App\Http\Controllers\user\RegulationController as UserRegulationController;
+use App\Http\Controllers\usr\NewsController as UsrNewsController;
 use App\Http\Controllers\usr\ProfileController as UsrProfileController;
 use App\Http\Controllers\usr\SopController as UsrSopController;
 use App\Http\Controllers\usr\UserController;
@@ -34,11 +35,15 @@ Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/maa/sop', [UsrSopController::class, 'index']);
     Route::get('/maa/sop/{sop}', [UsrSopController::class, 'detail']);
+    Route::get('/maa/sop/pdfView/{id}', [UsrSopController::class, 'pdfView']);
     Route::get('/maa/sop/downloadfile/{sop}', [UsrSopController::class, 'downloadfile']);
 
     Route::get('/maa/profile', [UsrProfileController::class, 'index']);
     Route::post('/maa/profile/update/{user}', [UsrProfileController::class, 'update']);
     Route::post('/maa/profile/updatepassword/{user}', [UsrProfileController::class, 'updatePassword']);
+
+    Route::get('/maa/news', [UsrNewsController::class, 'index']);
+    Route::get('/maa/news/{news}', [UsrNewsController::class, 'detail']);
 });
 
 //Admin Area

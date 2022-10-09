@@ -31,9 +31,10 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @php $no=1 @endphp
                             @foreach ($regulations as $regulation)
                             <tr>
-                                <td>x</td>
+                                <td>{{$no++}}</td>
                                 <td>{{$regulation->title}}</td>
                                 <td class="space-x-3">
                                     <a href="/admin/regulation/edit/{{$regulation->id}}"><i class="fa fa-edit text-info"></i></a>

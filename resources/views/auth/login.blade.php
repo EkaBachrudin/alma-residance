@@ -1,53 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('assets/css/login.css')}}">
-    <title>Login</title>
-</head>
-<body class="align">
 
-    <div class="grid">
-  
-      <form method="POST" action="{{ route('login') }}" class="form login">
-        @csrf
-        <div class="form__field">
-          <label for="login__username"><svg class="icon">
-              <use xlink:href="#icon-user"></use>
-            </svg><span class="hidden">Username</span></label>
-          <input autocomplete="email" id="login__username" type="text" name="email" class="form__input" placeholder="Email" required>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>EIP MAA</title>
+
+    <meta name="description" content="Codebase - Bootstrap 5 Admin Template &amp; UI Framework created by pixelcave and published on Themeforest">
+    <meta name="author" content="pixelcave">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="shortcut icon" href="assets/media/favicons/favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/media/favicons/favicon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/media/favicons/apple-touch-icon-180x180.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap">
+    <link rel="stylesheet" id="css-main" href="assets/css/codebase.min.css">
+  </head>
+  <body>
+    <div id="page-container" class="main-content-boxed">
+
+      <main id="main-container">
+        <div class="bg-body-dark">
+          <div class="row mx-0 justify-content-center">
+            <div class="hero-static col-lg-6 col-xl-4">
+              <div class="content content-full overflow-hidden">
+                <div class="py-4 text-center">
+                  <a class="link-fx fw-bold" href="index.html">
+                    <span class="fs-4 text-body-color">EIP</span><span class="fs-4">MAA</span>
+                  </a>
+                  <h1 class="h3 fw-bold mt-4 mb-2">Welcome to Your Dashboard</h1>
+                  <h2 class="h5 fw-medium text-muted mb-0">Start yout session</h2>
+                </div>
+                <x-auth-session-status class="mb-4" :status="session('status')" />
+
+                <!-- Validation Errors -->
+                <x-auth-validation-errors class="mb-4" :errors="$errors" />
+                <form class="js-validation-signin" action="{{route('login')}}" method="POST">
+                  @csrf
+                  <div class="block block-themed block-rounded block-fx-shadow">
+                    <div class="block-header bg-gd-dusk">
+                      <h3 class="block-title">Please Sign In</h3>
+                    </div>
+                    <div class="block-content">
+                      <div class="form-floating mb-4">
+                        <input type="text" class="form-control" id="login-username" name="email" placeholder="Enter your username">
+                        <label class="form-label" for="login-username">Email</label>
+                      </div>
+                      <div class="form-floating mb-4">
+                        <input type="password" class="form-control" id="login-password" name="password" placeholder="Enter your password">
+                        <label class="form-label" for="login-password">Password</label>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-6 d-sm-flex align-items-center push">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="login-remember-me" name="remember">
+                            <label class="form-check-label" for="login-remember-me">Remember Me</label>
+                          </div>
+                        </div>
+                        <div class="col-sm-6 text-sm-end push">
+                          <button type="submit" class="btn btn-lg btn-alt-primary fw-medium">
+                            Sign In
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-  
-        <div class="form__field">
-          <label for="login__password"><svg class="icon">
-              <use xlink:href="#icon-lock"></use>
-            </svg><span class="hidden">Password</span></label>
-          <input id="login__password" type="password" name="password" class="form__input" placeholder="Password" required>
-        </div>
-  
-        <div class="form__field">
-          <input type="submit" value="Sign In">
-        </div>
-  
-      </form>
-  
-    </div>
-  
-    <svg xmlns="http://www.w3.org/2000/svg" class="icons">
-      <symbol id="icon-arrow-right" viewBox="0 0 1792 1792">
-        <path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z" />
-      </symbol>
-      <symbol id="icon-lock" viewBox="0 0 1792 1792">
-        <path d="M640 768h512V576q0-106-75-181t-181-75-181 75-75 181v192zm832 96v576q0 40-28 68t-68 28H416q-40 0-68-28t-28-68V864q0-40 28-68t68-28h32V576q0-184 132-316t316-132 316 132 132 316v192h32q40 0 68 28t28 68z" />
-      </symbol>
-      <symbol id="icon-user" viewBox="0 0 1792 1792">
-        <path d="M1600 1405q0 120-73 189.5t-194 69.5H459q-121 0-194-69.5T192 1405q0-53 3.5-103.5t14-109T236 1084t43-97.5 62-81 85.5-53.5T538 832q9 0 42 21.5t74.5 48 108 48T896 971t133.5-21.5 108-48 74.5-48 42-21.5q61 0 111.5 20t85.5 53.5 62 81 43 97.5 26.5 108.5 14 109 3.5 103.5zm-320-893q0 159-112.5 271.5T896 896 624.5 783.5 512 512t112.5-271.5T896 128t271.5 112.5T1280 512z" />
-      </symbol>
-    </svg>
-  
+      </main>
+    <script src="assets/js/codebase.app.min.js"></script>
+
+    <script src="assets/js/lib/jquery.min.js"></script>
+
+    <script src="assets/js/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script src="assets/js/pages/op_auth_signin.min.js"></script>
   </body>
 </html>
-
-

@@ -6,21 +6,8 @@
 @endsection
 @section('content')
 <div class="content">
-    <h2 class="content-heading">Employee information portal</h2>
-     <div class="card shadow">
-      <div class="card-body rounded py-5 box" style="background-image: url('http://localhost:8000/assets/media/photos/photo13@2x.jpg')">
-       <div class="row">
-        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
-          <img class="img-avatar card shadow p-1" style="width: 160px; height:160px" src="{{asset('profile/'.Auth()->user()->image)}}">
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-6 col-6 text-white d-flex justify-content-center flex-column">
-          <h1>{{Auth()->user()->name}}</h1>
-        </div>
-       </div>
-      </div>
-     </div>
   </div>
-  <div class="content" style="margin-top: 50px">
+  <div class="content">
     <h2 class="content-heading">latest News</h2>
     <div class="row">
       <div class="col-md-12">
@@ -35,7 +22,7 @@
                   </div>
                   <div class="block-content flex-grow-1">
                     <h5 class="mb-1">
-                      <a class="text-dark" href="javascript:void(0)">
+                      <a class="text-dark" href="/maa/news/{{$item->id}}">
                         {{$item->title}}
                       </a>
                     </h5>

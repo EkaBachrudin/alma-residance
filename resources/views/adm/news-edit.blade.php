@@ -1,5 +1,8 @@
 @extends('adm.layouts.layouts')
 @section('style')
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 @endsection
 @section('content')
@@ -33,6 +36,7 @@
                             </div>
                             <div class="mb-4">
                                 <label class="form-label" for="example-text-input">Content</label>
+                                <p><small>*Use <strong>Source Serif Pro</strong> for a better user experience</small></p>
                                 <textarea id="summernote" name="content"rows="10">{{$news->content}}</textarea>
                             </div>
                             <div class="mb-4">
@@ -57,10 +61,12 @@
 <script>
     $(document).ready(function() {
         $('#summernote').summernote({
-        toolbar: [
+            fontNames: ['Source Serif Pro', 'Arial', 'Arial Black'],
+            addDefaultFonts: false,
+            toolbar: [
             // [groupName, [list of button]]
             ['style', ['bold', 'italic', 'underline', 'clear']],
-            ['font', ['strikethrough', 'superscript', 'subscript']],
+            ['fontname', ['fontname']],
             ['fontsize', ['fontsize']],
             ['color', ['color']],
             ['para', ['ul', 'ol', 'paragraph']],

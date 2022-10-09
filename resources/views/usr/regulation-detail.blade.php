@@ -1,6 +1,8 @@
 @extends('usr.layouts.layouts')
 @section('style')
-    
+    <style>
+           
+    </style>
 @endsection
 @section('content')
 <div class="content">
@@ -17,12 +19,34 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-10">
-            <embed src="/regulation/{{$regulation->file}}#toolbar=0&navpanes=0" type="application/pdf" width="100%" height="800px">
+            <embed controlsList="nodownload" src="/regulation/{{$regulation->file}}#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="800px">
         </div>
     </div>
 </div>
 @endsection
 
 @section('javascript')
-  
+ <script src="{{asset('assets/js/lib/jquery.min.js')}}"></script>
+<script>
+     $(document).ready(function() {
+    $(window).on("contextmenu",function(e){
+       return false;
+    }); 
+}); 
+ document.onkeydown = function (e) {
+    e = e || window.event;//Get event
+    if (e.ctrlKey) {
+        var c = e.which || e.keyCode;//Get key code
+        switch (c) {
+            case 83://Block Ctrl+S
+            case 87://Block Ctrl+W --Not work in Chrome
+            case 73://Block Ctrl+I
+            case 67: //Block Ctrl+C
+                e.preventDefault();     
+                e.stopPropagation();
+            break;
+        }
+    }
+};
+</script>
 @endsection
