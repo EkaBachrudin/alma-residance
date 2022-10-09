@@ -11,8 +11,8 @@
 <div class="content">
     <div class="d-flex justify-content-between">
       <h2 class="">Detail Sop</h2>
-      @if ($item->form == null)
-      
+      @if ($sop->form == null)
+
       @else
       <a href="/maa/sop/downloadfile/{{$sop->id}}" class="y-2"><i class="fa fa-file text-danger lk"> Download File</i> </a>
       @endif
