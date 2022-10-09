@@ -1,51 +1,44 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="{{asset('adm/dist/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="{{asset('adm/css/style.css')}}" rel="stylesheet">
-    @yield('style')
-    <title>EIP MAA</title>
-</head>
-<body>
-    <div id="wrapper">
-        
-        @include('usr.layouts.navigation')
-        
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12 d-flex justify-content-between">
-                        <div>
-                            <a href="#menu-toggle" class="btn btn-outline-secondary btn-sm rounded-0" id="menu-toggle"><i class="bi bi-list"></i></a>
-                            <strong class="ms-3">{{auth()->user()->name}}</strong>
-                        </div>
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-                            <x-dropdown-link :href="route('logout')"
-                                    onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                <i class="bi bi-box-arrow-left"></i>
-                            </x-dropdown-link>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <hr>
-            <div class="container">
-                @yield('content')
-            </div>
-        </div>
-    </div>
+    <title>EIP Maa</title>
+
+    <meta name="description" content="EIP Maa">
+    <meta name="author" content="MAA">
+    <meta name="robots" content="noindex, nofollow">
+
+    <link rel="shortcut icon" href="{{asset('assets/media/favicons/favicon.png')}}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{asset('assets/media/favicons/favicon-192x192.png')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('assets/media/favicons/apple-touch-icon-180x180.png')}}">
     
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="{{asset('adm/dist/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('adm/js/script.js')}}"></script>
-    @yield('javascript')
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap">
+    <link rel="stylesheet" id="css-main" href="{{asset('assets/css/codebase.min.css')}}">
+    @yield('style')
+   
+  </head>
+  <body>
+    <div id="page-container" class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow side-trans-enabled">
+      
+      @include('usr.layouts.navigation')
+      <main id="main-container">
+        @yield('content')
+      </main>
 
-</body>
+      <footer id="page-footer">
+        <div class="content py-3">
+          <div class="row fs-sm">
+            <div class="col-sm-6 order-sm-1 py-1 text-center text-sm-start">
+              <a class="fw-semibold" href="#" target="_blank">Portal Maa</a> &copy; <span data-toggle="year-copy"></span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="{{asset('assets/js/codebase.app.min.js')}}"></script>
+    @yield('javascript')
+  </body>
 </html>
