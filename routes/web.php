@@ -26,6 +26,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+require __DIR__.'/auth.php';
+
 //User Area
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/', [UserController::class, 'index']);
@@ -83,5 +85,3 @@ Route::group(['middleware' => ['auth', 'admin']], function () {
     Route::post('/admin/regulation/update/{regulation}', [RegulationController::class, 'update']);
     Route::get('/admin/regulation/delete/{regulation}', [RegulationController::class, 'delete']);
 });
-
-require __DIR__.'/auth.php';
