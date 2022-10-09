@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function index(){
-        $news = News::latest()->get();
+        $news = News::latest()->paginate(3);
         return view('usr.dashboard', compact('news'));
     }
 }
