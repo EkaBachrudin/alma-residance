@@ -23,7 +23,7 @@
 
     <div class="row mt-4 justify-content-center">
         <div class="d-flex justify-content-center col-lg-10 col-md-10 col-12">
-            <div>
+            <div style="font-size: 60px">
                 {!!$news->content!!}
             </div>
         </div>
