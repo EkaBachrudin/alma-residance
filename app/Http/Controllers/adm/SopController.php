@@ -53,8 +53,8 @@ class SopController extends Controller
    
         $request->validate([
             'sop_title'   => 'required',
-            'file'   => 'mimes:pdf',
-            'form'   => 'in:doc,csv,xlsx,xls,docx,ppt,odt,ods,odp,pdf',
+            'file'        => 'mimes:pdf',
+            'form'        => 'in:doc,csv,xlsx,xls,docx,ppt,odt,ods,odp,pdf',
         ]);
   
         $input = $request->all();

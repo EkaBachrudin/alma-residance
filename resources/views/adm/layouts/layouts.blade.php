@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title>Maa Portal</title>
+    <title>EIP Maa</title>
 
-    <meta name="description" content="Maa Portal">
+    <meta name="description" content="EIP Maa">
     <meta name="author" content="MAA">
     <meta name="robots" content="noindex, nofollow">
 
@@ -32,7 +32,7 @@
         <div class="content py-3">
           <div class="row fs-sm">
             <div class="col-sm-6 order-sm-1 py-1 text-center text-sm-start">
-              <a class="fw-semibold" href="#" target="_blank">Portal Maa</a> &copy; <span data-toggle="year-copy"></span>
+              <a class="fw-semibold" href="#" target="_blank">EIP Maa</a> &copy; <span data-toggle="year-copy"></span>
             </div>
           </div>
         </div>

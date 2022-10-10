@@ -44,7 +44,7 @@
           <a class="link-fx fw-bold tracking-wide mx-auto" href="index.html">
             <span class="smini-hidden">
               <i class="fa fa-fire text-primary"></i>
-              <span class="fs-4 text-dual">portal</span><span class="fs-4 text-primary">maa</span>
+              <span class="fs-4 text-dual">EIP</span><span class="fs-4 text-primary">maa</span>
             </span>
           </a>
         </div>
