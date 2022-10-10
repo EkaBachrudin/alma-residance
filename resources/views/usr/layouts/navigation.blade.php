@@ -89,19 +89,19 @@
                 <span class="nav-main-link-name">Dashboard</span>
               </a>
             </li>
-            <li class="nav-main-item {{ (request()->is('maa/regulation/*')) ? 'active' : '' }}">
+            <li class="nav-main-item {{ (request()->is('maa/regulation*')) ? 'active' : '' }}">
               <a class="nav-main-link " href="/maa/regulation">
                 <i class="nav-main-link-icon fa fa-handshake"></i>
                 <span class="nav-main-link-name">Company Regulation</span>
               </a>
             </li>
-            <li class="nav-main-item {{ (request()->is('maa/sop/*')) ? 'active' : '' }}">
+            <li class="nav-main-item {{ (request()->is('maa/sop*')) ? 'active' : '' }}">
               <a class="nav-main-link " href="/maa/sop">
                 <i class="nav-main-link-icon fa fa-eye"></i>
                 <span class="nav-main-link-name">Sop & Form</span>
               </a>
             </li>
-            <li class="nav-main-item {{ (request()->is('maa/news/*')) ? 'active' : '' }}">
+            <li class="nav-main-item {{ (request()->is('maa/news*')) ? 'active' : '' }}">
               <a class="nav-main-link " href="/maa/news">
                 <i class="nav-main-link-icon fa fa-newspaper"></i>
                 <span class="nav-main-link-name">Internal News</span>
