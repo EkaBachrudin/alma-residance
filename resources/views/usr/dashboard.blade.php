@@ -15,7 +15,7 @@
           <div class="splide__track">
             <ul class="splide__list">
               @foreach ($news as $item)
-              <li class="splide__slide" style="min-width: 300px;max-width: 300px">
+              <li class="splide__slide" style="min-width: 500px;max-width: 500px">
                 <div class="block block-rounded d-flex flex-column h-100 mb-0 card shadow-sm">
                   <div class="block-content block-content-full bg-image flex-grow-0" 
                   style="height: 180px; background-image: url('news/{{$item->image}}');">
@@ -53,7 +53,6 @@
  new Splide( '.splide', {
   type   : 'loop',
   gap: '10px',
-  perPage: 2,
 } ).mount();
 </script>
 @endsection
