@@ -102,12 +102,12 @@
               </a>
             </li>
             <li class="nav-main-item ">
-              <a class="nav-main-link " href="/maa/news">
+              <a class="nav-main-link {{ (request()->is('maa/news*')) ? 'active' : '' }}" href="/maa/news">
                 <i class="nav-main-link-icon fa fa-newspaper"></i>
                 <span class="nav-main-link-name">Internal News</span>
               </a>
             </li>
-            <li class="nav-main-item {{ (request()->is('maa/news*')) ? 'active' : '' }}">
+            <li class="nav-main-item ">
               <a class="nav-main-link " href="#">
                 <i class="nav-main-link-icon fa fa-graduation-cap"></i>
                 <span class="nav-main-link-name">E Learning</span>
