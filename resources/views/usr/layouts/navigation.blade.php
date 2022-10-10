@@ -84,7 +84,7 @@
         <div class="content-side content-side-full">
           <ul class="nav-main space-y-3">
             <li class="nav-main-item">
-              <a class="nav-main-link {{ (request()->is('')) ? 'active' : '' }}" href="/">
+              <a class="nav-main-link {{ (request()->is('/')) ? 'active' : '' }}" href="/">
                 <i class="nav-main-link-icon fa fa-house-user"></i>
                 <span class="nav-main-link-name">Dashboard</span>
               </a>
