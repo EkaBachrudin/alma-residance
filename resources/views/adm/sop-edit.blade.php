@@ -48,7 +48,7 @@
                               <div class="mb-4 mt-4">
                                 <label class="form-label">SOP Form upload</label>
                                 </iframe>
-                                <input type="file" class="form-control" name="Form">
+                                <input type="file" class="form-control" name="form">
                               </div>
                               <button type="submit" class="btn btn-primary">Sop Update</button>
                             </div>

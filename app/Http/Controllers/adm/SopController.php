@@ -35,9 +35,9 @@ class SopController extends Controller
 
         if ($form = $request->file('form')) {
             $destinationPath = 'form/';
-            $profileForm =  date('YmdHis') . "." . $form->getClientOriginalExtension();
-            $form->move($destinationPath, $profileForm);
-            $input['form'] = "$profileForm";
+            $profileImage = date('YmdHis') . "." . $form->getClientOriginalExtension();
+            $form->move($destinationPath, $profileImage);
+            $input['form'] = "$profileImage";
         }
     
         Sop::create($input);
@@ -52,9 +52,9 @@ class SopController extends Controller
     public function update(Request $request, Sop $sop) {
    
         $request->validate([
-            'sop_title'   => 'required',
-            'file'        => 'mimes:pdf',
-            'form'        => 'in:doc,csv,xlsx,xls,docx,ppt,odt,ods,odp,pdf',
+            'sop_title'     => 'required',
+            'file'          => 'mimes:pdf',
+            'form'          => 'mimes:doc,csv,xlsx,xls,docx,ppt,odt,ods,odp,pdf',
         ]);
   
         $input = $request->all();
@@ -70,9 +70,9 @@ class SopController extends Controller
         }
 
         if ($form = $request->file('form')) {
-            \File::delete(public_path('form/'.$form->file));
-            $destinationPath = 'form/';
-            $profileImage =  date('YmdHis') . "." . $form->getClientOriginalExtension();
+            \File::delete(public_path('form/'.$sop->form));
+           $destinationPath = 'form/';
+            $profileImage = date('YmdHis') . "." . $form->getClientOriginalExtension();
             $form->move($destinationPath, $profileImage);
             $input['form'] = "$profileImage";
         }else{
