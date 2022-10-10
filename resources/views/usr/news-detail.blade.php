@@ -23,7 +23,9 @@
 
     <div class="row mt-4 justify-content-center">
         <div class="d-flex justify-content-center col-lg-10 col-md-10 col-12">
+            <div>
                 {!!$news->content!!}
+            </div>
         </div>
     </div>
 </div>
