@@ -19,7 +19,11 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-md-10">
+            @if($regulation->file)
             <embed controlsList="nodownload" src="/regulation/{{$regulation->file}}#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="800px">
+            @else
+            <h2>PDF Not found . . . .</h2>
+            @endif
         </div>
     </div>
 </div>
