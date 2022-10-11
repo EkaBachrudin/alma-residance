@@ -9,8 +9,12 @@
         <div class="content content-full text-center">
   
           <div class="mb-3">
-            <a class="img-link" href="be_pages_generic_profile.html">
+            <a class="img-link" href="#">
+              @if($user->image)
               <img class="img-avatar img-avatar96 img-avatar-thumb" src="{{asset('profile/'.$user->image)}}" alt="">
+              @else
+              <img class="img-avatar img-avatar96 img-avatar-thumb" src="{{asset('assets/media/avatars/avatar15.jpg')}}" alt="">
+              @endif
             </a>
           </div>
 
@@ -35,11 +39,7 @@
           </h3>
         </div>
         <div class="block-content">
-            @if($user->roles[0]->id == 2)
             <form action="/admin/profile/update/{{Auth()->user()->id}}" method="POST" enctype="multipart/form-data">
-            @elseif($user->roles[0]->id == 3)
-            <form action="/maa/profile/update/{{Auth()->user()->id}}" method="POST" enctype="multipart/form-data">
-            @endif
             @csrf
             <div class="row items-push">
               <div class="col-lg-3">
@@ -59,7 +59,11 @@
                 <div class="row mb-4">
                   <div class="col-md-10 col-xl-6">
                     <div class="push">
+                      @if($user->image)
                       <img class="img-avatar" src="{{asset('profile/'.$user->image)}}" alt="">
+                      @else
+                      <img class="img-avatar" src="{{asset('assets/media/avatars/avatar15.jpg')}}" alt="">
+                      @endif
                     </div>
                     <div class="mb-4">
                       <label class="form-label" for="profile-settings-avatar">Choose new avatar</label>

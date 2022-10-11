@@ -67,7 +67,11 @@
           <!-- Visible only in normal mode -->
           <div class="smini-hidden text-center mx-auto">
             <a class="img-link" href="/admin/profile">
+              @if(Auth()->user()->image)
               <img class="img-avatar" src="{{asset('profile/'.Auth()->user()->image)}}" alt="">
+              @else
+              <img class="img-avatar" src="{{asset('assets/media/avatars/avatar15.jpg')}}" alt="">
+              @endif
             </a>
             <ul class="list-inline mt-3 mb-0">
               <li class="list-inline-item p-1">
